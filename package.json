@@ -1,0 +1,27 @@
+{
+  "name": "jiralistener",
+  "version": "0.1.0",
+  "description": "Generic webhook listener for JIRA",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.73.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medmond78/JiraListener.git"
+  },
+  "keywords": [
+    "webhook",
+    "listener",
+	"JIRA",
+    "heroku"
+  ],
+  "author": "MEP",
+  "license": "MIT"
+}
