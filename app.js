@@ -13,7 +13,8 @@ app.use(bodyParser.json());
 // Create a route to respond to a webhook POST request
 app.post('/listen', function(req, res) {
     console.log('Hey we got a POST request');
-	console.log(req.body);
+	console.log('Here is the body' + req.body);
+	console.log('And here is the assignee' + req.body.assignee);
 	res.send({ status: 'SUCCESS' });
 
 });
